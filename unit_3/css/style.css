@@ -1,0 +1,19 @@
+body{
+  background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+  font-size: 22px;
+}
+h1,p,h2,ul{
+color:rgb(254, 1, 1);
+}
+#slogan {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+}
+h2{
+  text-decoration: underline;
+}
+
