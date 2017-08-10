@@ -1,0 +1,98 @@
+body{
+  background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+  line-height: 1.5em;
+	margin: 2em;
+  font-size: 22px;
+}
+
+h1,p,h2,ul{
+color:rgb(254, 1, 1);
+}
+
+#slogan {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  line-height: 1.5em;
+	margin: 2em
+	font-variant: small-caps;
+}
+
+nav{
+    background-color: rgb(30,144,255);
+  font-family:'Acme', sans-serif;
+}
+
+a{
+    background-color:;
+  font-family:'Acme', sans-serif;
+  color:rgb(254,1,1);
+  text-decoration:none;
+  display:block;
+  float: left;
+  padding: 20px;
+}
+
+a:hover{
+  background-color: rgb(30,144,255);
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+h2{
+  text-decoration: underline;
+  line-height: 1.5em;
+	margin: 2em;
+}
+
+aside{
+  float:left;
+}
+
+article{
+  float: right;
+}
+
+
+#two_column {
+    background-color:	rgb(71, 165, 229);
+    padding: 20px;
+}
+
+#left {
+    clear:both;
+    background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+    padding: 20px;
+}
+
+#left1{
+    clear:both;
+    background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+    padding: 20px;
+}
+#left2{
+    clear:both;
+   background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+    padding: 20px;
+}
+
+#right {
+    background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+    padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
