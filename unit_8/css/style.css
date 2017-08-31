@@ -1,0 +1,149 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+  background-color:	rgb(71, 165, 229);
+  font-family:'Acme', sans-serif;
+  line-height: 2em;
+  font-size: 22px;
+}
+
+h1,p,h2,ul{
+color:rgb(254, 1, 1);
+}
+
+#slogan {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  line-height: 1.5em;
+	margin: 2em 0 0;
+	font-variant: small-caps;
+}
+
+header{
+  padding: 2em;
+  text-align: center;
+}
+
+nav{
+    background-color: rgb(30,144,255);
+    font-family:'Acme', sans-serif;
+    text-align: center;
+}
+
+a{
+    background-color:;
+    font-family:'Acme', sans-serif;
+    color:rgb(254,1,1);
+    text-decoration:none;
+    display: inline-block;
+    padding: 2%;
+}
+
+a:hover{
+    background-color: rgb(30,144,255);
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+h2{
+   text-decoration: underline;
+   line-height: 1.5em;
+   margin: 2em;
+}
+
+aside{
+   float:left;
+}
+
+article{
+   float: right;
+}
+
+
+#two_column {
+   background-color:	rgb(71, 165, 229);
+   padding: 2%;
+}
+
+#left {
+   clear:both;
+   background-color:	rgb(71, 165, 229);
+   font-family:'Acme', sans-serif;
+   padding: 2%;
+}
+
+#left1{
+    clear:both;
+    background-color:	rgb(71, 165, 229);
+    font-family:'Acme', sans-serif;
+    padding: 2%;
+}
+#left2{
+    clear:both;
+    background-color:	rgb(71, 165, 229);
+    font-family:'Acme', sans-serif;
+    padding: 2%;
+}
+
+#right {
+    background-color:	rgb(71, 165, 229);
+    font-family:'Acme', sans-serif;
+    padding: 2%;
+}
+
+footer{
+  text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 915px) {
+  h1 {
+    line-height: 1.3em;
+  }
+  img {
+    width: 300px;
+    text-align: center;
+  }
+  
+  nav {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+  }
+  
+}
+
+@media only screen and (max-width: 515px) {
+  
+  nav a{
+    display: block;
+  }
+  
+  nav{
+    padding: 2em;
+  }
+  
+}
+
+@media only screen and (max-width: 430px) {
+  img {
+    width: 200px;
+  }
+  
+  body{
+    line-height: 2em;
+  }
+  
+}
