@@ -1,0 +1,205 @@
+/**************************************
+General
+**************************************/
+.wrap{
+  width:93%;
+  margin:auto;
+  }
+*{
+    font-family: 'Acme', sans-serif;
+
+}
+
+/**************************************
+Navigation
+**************************************/
+.top-bar{
+  background-image:url("../Images/footer_lodyas.png");
+color: rgb(60,141,47);
+padding-top:.75em;
+padding-bottom:.75em;
+}
+.top-bar-left{
+font-family: 'Lobster', cursive;
+}
+#name{
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+}
+.top-bar ul{
+  background-color: transparent;
+  border-style: none;
+}
+.top-bar li{
+  background-image:url("../Images/footer_lodyas.png");
+
+}
+.top-bar h4, .top-bar a{
+  color:rgb(60,141,47);
+font-size: 25px;
+
+  padding: 0;
+}
+.is-accordion-submenu-parent > a::after, .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+border-color: rgb(60,141,47) transparent transparent;
+}
+/**************************************
+Header/Orbit
+**************************************/
+
+.orbit h3{
+ width: 88%;
+  margin: auto;
+  padding-top: 4em;
+}
+
+.orbit img{
+  max-height: 32em;
+  max-width: 189em;
+  background-size:cover;
+}
+.orbit-caption{
+  text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 0px black;
+
+}
+
+
+
+/**************************************
+Main
+**************************************/
+.main{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-image:url("../Images/grey_wash_wall.png");
+  text-align:center;
+  color: white;
+}
+.small-12-medium-7-columns{
+ font-size: 22px;
+  color:white;
+  text-align:justify;
+}
+.main-c{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-image:url("../Images/grey_wash_wall.png");
+  text-align:center;
+  color: white;
+}
+.main-w-e{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-image:url("../Images/grey_wash_wall.png");
+  text-align:center;
+  color: white;
+}
+
+.row{
+  width:100%;
+  margin: auto;
+}
+.columns{
+  padding: 1em 2em;
+}
+
+
+.about-me{
+  font-size: 22px;
+  color:white;
+  text-align:justify;
+}
+.intro{
+  font-size: 22px;
+  color:white;
+  text-align:center;
+  padding-bottom: 3em;
+}
+
+.extra{
+  font-size: 22px;
+  color:white;
+  text-align:center;
+}
+  #link{
+    color: white;
+font-family: 'Acme', sans-serif;
+text-align:center;
+text-decoration:underline;
+  }
+  #about-me-title{
+      font-family: 'Acme', sans-serif;
+  color: white;
+  text-align:center;
+  }
+  #volunteer-title{
+      font-family: 'Acme', sans-serif;
+  color: white;
+  text-align:center;
+  text-decoration: underline;
+  padding-bottom: .5em;
+  }
+  #contact-title{
+      font-family: 'Acme', sans-serif;
+  color: white;
+  text-align:center;
+  padding-top: .5em;
+  padding-bottom: 1em;
+  }
+
+  .main-w-e a:link, .main-w-e a:visited{
+    color: white;
+  text-align: center;
+  font-size: 40px;
+  }
+  .main-w-e ol{
+    font-size: 40px;
+  }
+.main-c a:link, .main-c a:visited{
+    color: white;
+  text-align: right;
+  font-size: 35px;
+  }
+  #img1{
+    padding-top: 1.7em;
+  }
+/**************************************
+Footer
+**************************************/
+
+.footer, .footer a{
+  background-image:url("../Images/footer_lodyas.png");
+text-align: center;
+color:white;
+}
+.footer h3{
+  color:rgb(60,141,47);
+  font-family:'Acme', sans-serif;
+
+}
+.footer{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.footer img{
+  height: 6em;
+  width: 6em;
+}
+.footer p{
+  font-size:18px;
+}
+a:hover{
+  color:rgb(60,141,47);
+  font-style:italic;
+}
+/*#link a:hover{
+  color:rgb(60,141,47);
+  font-style:italic;
+}*/
+
+}
+.footer{
+  background-image:url("../Images/footer_lodyas.png");
